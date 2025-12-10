@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main container using flexbox */
+.profile-container {
+    display: flex;
+    justify-content: center;      /* centers card horizontally */
+    align-items: center;          /* centers card vertically */
+    height: 80vh;
+}
+
+/* Profile card layout */
+.profile-card {
+    display: flex;
+    flex-direction: row;          /* image and details side-by-side */
+    background: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    align-items: center;          /* vertically aligns items */
+}
+
+/* Profile image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Text part */
+.profile-info {
+    text-align: left;
+}
+
+.profile-info h2 {
+    margin-bottom: 10px;
+}

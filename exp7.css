@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* BLOCK EXAMPLE */
+.nav-block a {
+    display: block;
+    background: #ffb3b3;
+    margin: 5px 0;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* INLINE EXAMPLE */
+.nav-inline a {
+    display: inline;
+    background: #b3e6ff;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* INLINE-BLOCK EXAMPLE */
+.nav-inline-block a {
+    display: inline-block;
+    background: #c2f0c2;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* FLOAT EXAMPLE */
+.nav-float a {
+    float: left;
+    background: #ffd699;
+    padding: 10px 15px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* CLEAR FIX */
+.clear {
+    clear: both;
+    margin-top: 40px;
+}
