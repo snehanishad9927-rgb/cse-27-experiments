@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* Nav Links */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 18px;
+    font-size: 1rem;
+}
+
+.nav-links {
+    display: flex;
+}
+
+/* Right Section (Cart + Login) */
+.user-actions a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Hamburger Menu (Hidden by default) */
+.menu-icon {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+.hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Responsive Breakpoints */
+
+/* Tablet + Mobile View */
+@media (max-width: 768px) {
+    
+    .nav-links, .user-actions {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background: #111;
+        padding: 15px 0;
+    }
+
+    /* Show menu icon */
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links.active, .user-actions.active {
+        display: flex;
+    }
+
+    .nav-links a, .user-actions a {
+        margin: 10px 0;
+    }
+}
