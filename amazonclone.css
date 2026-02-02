@@ -18,3 +18,10 @@ background-size:cover;
 height:100%;
   width:100%;
 }
+.nav-search {
+    display: flex;
+    background-color: pink; /* Temporary to see shape */
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
