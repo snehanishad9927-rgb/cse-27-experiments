@@ -38,7 +38,7 @@
 <script>
     function toggleMenu() {
         document.querySelector(".nav-links").classList.toggle("active");
-        document.querySelector(".user-actions").classList.toggle("active");
+        document.querySelector (".user-actions").classList.toggle("active");
     }
 </script>
 
